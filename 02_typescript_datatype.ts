@@ -53,7 +53,7 @@ var john:Member = ['한솔', true];
 type Member2 = {
     name : string
 }
-var john2 :Member2 = {name:'123'}
+var john2 :Member2 = {name:'1234'}
 
     // john2에 object값이 너무 많은경우에 사용할 수 있는 key 세팅
     type Member3 = {

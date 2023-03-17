@@ -28,6 +28,6 @@ function hamsu2(x) {
     return x * 2;
 }
 var john = ['한솔', true];
-var john2 = { name: '123' };
+var john2 = { name: '1234' };
 //문자|숫자로 된 모든 값은 string이어야 함
 var john3 = { name: '123', 123: '123' };
