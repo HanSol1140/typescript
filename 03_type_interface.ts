@@ -2,7 +2,11 @@
 
   /*
   type과 interface는 typescript에서 데이터 타입을 정의하는 두가지 방법
-  type은 다른 type과 
+  두 가지다 비슷한 용도를 가졌지만
+  type은 다른 type과 합치는데 중점을 두고
+  interface는 처음 선언한 interface를 extends하는데 중점을 둠
+  
+  복잡한 로직을 구동할땐 type이 좋지만 주로 interface를 사용한다고함
   */
 
 // interface 확장
