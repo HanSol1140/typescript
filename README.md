@@ -17,7 +17,8 @@
     ![image](https://user-images.githubusercontent.com/121269266/225862026-aa8c62ce-4df8-495c-8225-21221e085d30.png)<br>
     string타입으로 설정한 변수에 number값 삽입시 오류메세지 출력 <br>
     
-    ![image](https://user-images.githubusercontent.com/121269266/225862449-243f5f84-73fc-40b2-aae5-b5a0494ffeb8.png)<br>    
+    ![image](https://user-images.githubusercontent.com/121269266/225862449-243f5f84-73fc-40b2-aae5-b5a0494ffeb8.png)<br>
+    ![image](https://user-images.githubusercontent.com/121269266/225877040-aba208a2-a15e-4fd4-a16f-831f3201388c.png)<br>
     자바스크립트에 비해 타입스크립트는 상세한 오류 출력함<br>
     
 
@@ -73,7 +74,7 @@
     <b>Set-ExecutionPolicy RemoteSigned ?</b><br>
     보안 단계를 RemoteSigned로 설정(변경)
     
-    RemoteSigned
+    RemoteSigned<br>
         직접 작성한 스크립트 파일은 실행가능<br>
         다운로드한 스크립트 파일은 전자 서명을 확인하고 승인해야 실행이 가능한 보안단계
        
