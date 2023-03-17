@@ -11,14 +11,14 @@
 1. 변수 선언시 타입 등록 가능<br>
     ![image](https://user-images.githubusercontent.com/121269266/225848027-f9f0bcbf-88a1-4b5b-ae81-c87a4e58b291.png)<br>
     타입스크립트는 자바스크립트와 다르게 변수 선언시 변수의 데이터 타입을 설정할 수 있음<br>
-    설정된 타입과 다른 데이터타입이 들어올 시 오류 반환
+    설정된 타입과 다른 데이터타입이 들어올 시 오류 출력
     
 2. 자세한 오류 반환<br>
     ![image](https://user-images.githubusercontent.com/121269266/225862026-aa8c62ce-4df8-495c-8225-21221e085d30.png)<br>
-    string타입으로 설정한 변수에 number값 삽입시 오류가 <br>
+    string타입으로 설정한 변수에 number값 삽입시 오류메세지 출력 <br>
     
     ![image](https://user-images.githubusercontent.com/121269266/225862449-243f5f84-73fc-40b2-aae5-b5a0494ffeb8.png)<br>    
-    자바스크립트에 비해 타입스크립트는 상세한 오류를 출력함<br>
+    자바스크립트에 비해 타입스크립트는 상세한 오류 출력함<br>
     
 
 ## 설치, 실행방법
