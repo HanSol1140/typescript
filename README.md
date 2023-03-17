@@ -15,11 +15,10 @@
     
 2. 자세한 오류 반환
     ![image](https://user-images.githubusercontent.com/121269266/225862026-aa8c62ce-4df8-495c-8225-21221e085d30.png)<br>
+    ![image](https://user-images.githubusercontent.com/121269266/225862449-243f5f84-73fc-40b2-aae5-b5a0494ffeb8.png)<br>
     string타입으로 설정한 변수에 number값 삽입시 오류가 반환됨<br>
     자바스크립트에 비해 타입스크립트는 상세한 오류를 출력함<br>
     
-
-
 
 ## 설치, 실행방법
 1. 터미널 실행
