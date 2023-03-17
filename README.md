@@ -73,7 +73,7 @@
     <b>Set-ExecutionPolicy RemoteSigned ?</b><br>
     보안 단계를 RemoteSigned로 설정(변경)
     
-    RemoteSigned
+    RemoteSigned<br>
         직접 작성한 스크립트 파일은 실행가능<br>
         다운로드한 스크립트 파일은 전자 서명을 확인하고 승인해야 실행이 가능한 보안단계
        
