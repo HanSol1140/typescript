@@ -5,6 +5,7 @@ basic_string = 'songhansol';
 var basic_number = 1;
 // 2. 배열 데이터 타입
 var array = ['song', 'han', 'sol'];
+var array1 = ['song', 'han', 'sol'];
 //  array 에는 string타입의 데이터만 들어와야 함
 // 3. 오브젝트 데이터 타입
 var obejct = { name: 'songhansol', age: 30 };
@@ -31,3 +32,10 @@ var john = ['한솔', true];
 var john2 = { name: '1234' };
 //문자|숫자로 된 모든 값은 string이어야 함
 var john3 = { name: '123', 123: '123' };
+// 9. class 설정
+var User = /** @class */ (function () {
+    function User(name) {
+        this.name = name;
+    }
+    return User;
+}());

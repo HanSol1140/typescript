@@ -7,6 +7,7 @@ var basic_number :number = 1;
 
 // 2. 배열 데이터 타입
 var array :string[] = ['song','han','sol'];
+var array1 :Array<string> = ['song','han','sol'];
     //  array 에는 string타입의 데이터만 들어와야 함
     
     
@@ -62,3 +63,11 @@ var john2 :Member2 = {name:'1234'}
     }
         //문자|숫자로 된 모든 값은 string이어야 함
     var john3 :Member3 = {name:'123', 123:'123'}
+
+// 9. class 설정
+class User {
+    name :string;
+    constructor(name :string){
+        this.name = name;
+    }
+}
