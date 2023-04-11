@@ -20,7 +20,7 @@ interface User1 extends BaseUser {
   gender?: string;
 }
 
-// 따라서 User2는 BaseUser에 age, gender?를 더한 값을 데이터값을 가짐
+// 따라서 User1은 BaseUser에 age, gender?를 더한 값을 데이터값을 가짐
 const user: User1 = {
   name: "John",
   age: 30,
