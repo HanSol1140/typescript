@@ -46,24 +46,28 @@ RemoteSigned 직접 작성한 스크립트 파일은 실행가능
 
 ───────────────────────────────────────────────────────────────────────────────────────────────
 <1. 기본적인 데이터타입 설정>
+<script>
 var basic_string :string = 'hansol';
 basic_string = 'songhansol';
     // basic_string = 1; ---------- 데이터타입이 string이 아니므로 오류
 var basic_number :number = 1;
-
+</script>
 
 <2. 배열 데이터 타입>
-var array :string[] = ['song','han','sol'];
-    //  array 에는 string타입의 데이터만 들어와야 함
-    
+<script>
+    var array :string[] = ['song','han','sol'];
+        //  array 에는 string타입의 데이터만 들어와야 함    
+</script>
     
 <3. 오브젝트 데이터 타입>
-var obejct :{name : string, age:number} = {name : 'songhansol', age:30}
-
-var obejct2 :{name? : string, age:number} = {age:30}
-    // name 속성이 들어올수도, 안들어올 수도있음
-    // name의 데이터 타입이 string이 아닐수도 있다는 의미가 아니다
-
+<script>
+    
+    var obejct :{name : string, age:number} = {name : 'songhansol', age:30}
+    
+    var obejct2 :{name ?: string, age:number} = {age:30}
+        // ?: => name 속성이 들어올수도, 안들어올 수도있음
+        // name의 데이터 타입이 string이 아닐수도 있다는 의미가 아니다
+</script>
 
 <4. 여러가지 데이터 타입을 한번에 넣기>
 var union : string | number = 'string';
